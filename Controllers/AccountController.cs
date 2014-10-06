@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
-using MemberManage.Models;
 using System.Web.Routing;
+using MemberManage.Models;
 
 namespace MemberManage.Controllers
 {
@@ -32,7 +30,7 @@ namespace MemberManage.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return RedirectToAction("Register","Account");
+                return RedirectToAction("Register", "Account");
             }
             MemberManageEntities db = new MemberManageEntities();
 
@@ -63,8 +61,8 @@ namespace MemberManage.Controllers
         [HttpPost]
         public ActionResult LogOn(LogOnModel member)
         {
-            
-            if(ValidateLogOn(member))
+
+            if (ValidateLogOn(member))
             {
                 return RedirectToAction("Show", "Account");
             }
@@ -139,17 +137,17 @@ namespace MemberManage.Controllers
                 var member = db.Member.Where(p => p.ID == id).First();
                 return View("Edit", member);
             }
-            
+
         }
         [HttpPost]
         public ActionResult Edit(MemberForm UpdateMember)
         {
             using (MemberManageEntities db = new MemberManageEntities())
             {
-                var member = db.Member.Where(p => p.Account == UpdateMember.Account).First();
-                member.ChName = UpdateMember.ChName;
-                member.NickName = UpdateMember.NickName;
-                member.Email = UpdateMember.Email;
+                var member = db.Member.Where(p => p.Account == UpdateMember.Account);
+                ((MemberForm)member).ChName = UpdateMember.ChName;
+                ((MemberForm)member).NickName = UpdateMember.NickName;
+                ((MemberForm)member).Email = UpdateMember.Email;
                 db.SaveChanges();
             }
             return RedirectToAction("Show", "Account");
@@ -168,6 +166,7 @@ namespace MemberManage.Controllers
             using (MemberManageEntities db = new MemberManageEntities())
             {
                 var member = db.Member.Where(p => p.Account.Contains(SearchText) || p.ChName.Contains(SearchText) || p.Email.Contains(SearchText) || p.NickName.Contains(SearchText)).ToList();
+                TempData["SearchText"] = SearchText;
                 return View("SearchList", member);
             }
         }

@@ -6,7 +6,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
-    <h2>搜尋結果</h2>
+    <h2>搜尋<%=TempData["SearchText"]%></h2>
 
     <table>
         <tr>

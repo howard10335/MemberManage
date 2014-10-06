@@ -2,9 +2,3 @@ c:\users\howardyang\documents\visual studio 2010\Projects\MemberManage\MemberMan
 c:\users\howardyang\documents\visual studio 2010\Projects\MemberManage\MemberManage\bin\MemberManage.pdb
 c:\users\howardyang\documents\visual studio 2010\Projects\MemberManage\MemberManage\obj\Debug\MemberManage.dll
 c:\users\howardyang\documents\visual studio 2010\Projects\MemberManage\MemberManage\obj\Debug\MemberManage.pdb
-C:\Users\howardyang\documents\visual studio 2010\Projects\MemberManage\MemberManage\obj\Debug\MemberManage.csprojResolveAssemblyReference.cache
-C:\Users\howardyang\Documents\GitHub\MemberManage\MemberManage\bin\MemberManage.dll
-C:\Users\howardyang\Documents\GitHub\MemberManage\MemberManage\bin\MemberManage.pdb
-C:\Users\howardyang\Documents\GitHub\MemberManage\MemberManage\obj\Debug\MemberManage.csprojResolveAssemblyReference.cache
-C:\Users\howardyang\Documents\GitHub\MemberManage\MemberManage\obj\Debug\MemberManage.dll
-C:\Users\howardyang\Documents\GitHub\MemberManage\MemberManage\obj\Debug\MemberManage.pdb
