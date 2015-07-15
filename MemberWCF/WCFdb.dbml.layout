@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="WCFdb">
+  <DataContextMoniker Name="/WCFdbDataContext" />
+  <nestedChildShapes>
+    <classShape Id="3d11d335-92b6-44d3-89e1-9fc7ffe26b47" absoluteBounds="4, 1.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/WCFdbDataContext/Member" />
+      <nestedChildShapes>
+        <elementListCompartment Id="29b14855-f3d8-45b8-9255-9661bb58869f" absoluteBounds="4.015, 2.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

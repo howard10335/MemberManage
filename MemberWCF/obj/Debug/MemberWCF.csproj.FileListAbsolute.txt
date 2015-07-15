@@ -1,0 +1,4 @@
+C:\Users\howardyang\Documents\Visual Studio 2010\Projects\MemberManage\MemberWCF\bin\MemberWCF.dll
+C:\Users\howardyang\Documents\Visual Studio 2010\Projects\MemberManage\MemberWCF\bin\MemberWCF.pdb
+C:\Users\howardyang\Documents\Visual Studio 2010\Projects\MemberManage\MemberWCF\obj\Debug\MemberWCF.dll
+C:\Users\howardyang\Documents\Visual Studio 2010\Projects\MemberManage\MemberWCF\obj\Debug\MemberWCF.pdb

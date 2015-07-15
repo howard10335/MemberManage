@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ef3ff050-6fa9-4ef1-b7de-2e6584892cb9" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:60800/Wcf_Getdata.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Wcf_Getdata.xsd" MetadataType="Schema" ID="2c6cb678-b4aa-4cd4-942f-956ef91d4f17" SourceId="1" SourceUrl="http://localhost:60800/Wcf_Getdata.svc?xsd=xsd2" />
+    <MetadataFile FileName="Wcf_Getdata1.xsd" MetadataType="Schema" ID="3ae6bb90-07cf-4684-b9f2-22547f67bc04" SourceId="1" SourceUrl="http://localhost:60800/Wcf_Getdata.svc?xsd=xsd1" />
+    <MetadataFile FileName="Wcf_Getdata2.xsd" MetadataType="Schema" ID="b2ebb495-8211-48bb-b670-7deb15fe7b35" SourceId="1" SourceUrl="http://localhost:60800/Wcf_Getdata.svc?xsd=xsd0" />
+    <MetadataFile FileName="Wcf_Getdata.wsdl" MetadataType="Wsdl" ID="bfaa1236-8f65-41b8-a8f9-bc7f7578baae" SourceId="1" SourceUrl="http://localhost:60800/Wcf_Getdata.svc?wsdl" />
+    <MetadataFile FileName="Wcf_Getdata.disco" MetadataType="Disco" ID="1a6e7fd7-9be4-4329-8ea5-cd3cbe3cb316" SourceId="1" SourceUrl="http://localhost:60800/Wcf_Getdata.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

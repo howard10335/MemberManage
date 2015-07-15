@@ -1,0 +1,1 @@
+C:\Users\howardyang\Documents\Visual Studio 2010\Projects\MemberManage\MemberManage\MemberManage.csproj,635481928798969880,Controllers\AccountController.cs,Controllers\HomeController.cs,Controllers\SilverlightController.cs,Global.asax.cs,Models\Account.Designer.cs,Models\LogOnModel.cs,Models\MemberForm.cs,Properties\AssemblyInfo.cs,

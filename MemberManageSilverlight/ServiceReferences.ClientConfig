@@ -1,0 +1,24 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="BasicHttpBinding_ILoginService" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
+                <binding name="BasicHttpBinding_IWcf_Getdata" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://localhost:60800/LoginService.svc" binding="basicHttpBinding"
+                bindingConfiguration="BasicHttpBinding_ILoginService" contract="LoginService.ILoginService"
+                name="BasicHttpBinding_ILoginService" />
+            <endpoint address="http://localhost:60800/Wcf_Getdata.svc" binding="basicHttpBinding"
+                bindingConfiguration="BasicHttpBinding_IWcf_Getdata" contract="wcfService.IWcf_Getdata"
+                name="BasicHttpBinding_IWcf_Getdata" />
+        </client>
+    </system.serviceModel>
+</configuration>

@@ -1,4 +1,0 @@
-c:\users\howardyang\documents\visual studio 2010\Projects\MemberManage\MemberManage\bin\MemberManage.dll
-c:\users\howardyang\documents\visual studio 2010\Projects\MemberManage\MemberManage\bin\MemberManage.pdb
-c:\users\howardyang\documents\visual studio 2010\Projects\MemberManage\MemberManage\obj\Debug\MemberManage.dll
-c:\users\howardyang\documents\visual studio 2010\Projects\MemberManage\MemberManage\obj\Debug\MemberManage.pdb
